@@ -1,6 +1,6 @@
 import { IUser } from '../types';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = process.env.REACT_APP_BASE_URL;
 
 export const apiService = {
   async getAllUsers(): Promise<IUser[]> {
