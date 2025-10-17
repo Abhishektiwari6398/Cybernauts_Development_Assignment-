@@ -1,6 +1,6 @@
 import { IUser } from '../types';
 
-const API_BASE = 'https://cybernauts-development-assignment.onrender.com/';
+const API_BASE = 'https://cybernauts-development-assignment.onrender.com';
 
 export const apiService = {
   async getAllUsers(): Promise<IUser[]> {
