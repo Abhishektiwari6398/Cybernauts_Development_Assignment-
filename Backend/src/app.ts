@@ -15,7 +15,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 
 app.use(cors({
-  origin: 'https://cybernauts-development-assignment-a404.onrender.com',
+  origin: 'https://cybernauts-development-assignment-a404.onrender.com/',
   credentials: true, 
 }));
 
